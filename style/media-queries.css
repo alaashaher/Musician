@@ -1,0 +1,24 @@
+/*for mobile*/
+@media (max-width:480px){
+    
+}
+
+/*smart phones & tablets*/
+@media (min-width:481px) and (max-width:767px){
+    
+}
+/*small screen*/
+@media (min-width:768px) and (max-width:991px){
+    
+}
+
+/*medium screen*/
+@media (min-width:992px) and (max-width:1293){
+    .navbar-brand {
+        margin: auto;
+    }
+    .navbar-collapse {
+        margin: auto;
+    }
+}
+
