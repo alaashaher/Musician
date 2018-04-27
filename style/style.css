@@ -39,14 +39,14 @@ nav {
     margin-top: 70px;
 }
 
-#discography h1 {
+.section h1 {
     text-decoration: line-through;
     color: rgb(153, 106, 76);
     letter-spacing: 4px;
     font-family: 'Agency FB';
 }
 
-#discography p {
+.section p {
     font-size: 12px;
     color: rgb(175, 179, 182);
 }
@@ -78,27 +78,33 @@ nav {
 }
 /* discography end */
 
+/* concert tours start */
+.concert_tours_body {
+    background-image: url("../image/concert_tours_image.png");
+    width: 102.5%;
+    height: 700px;
+    background-repeat: no-repeat;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.concert_tours_body_data {
+    margin-top: 170px;
+    margin-left: 15%;
+}
+.buy_online {
+    width: 120px;
+    height: 30px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.buy_online:hover {
+    color: rgba(82, 78, 78, 0.555);
+}
+/* concert tours end */
 
 
 
 /* start media */
-/* @media (min-width:1126px) and (max-width:1172px){
+@media (min-width:1126px) and (max-width:1172px){
     
     .navbar-collapse {
         margin-left: 10px;
@@ -141,4 +147,4 @@ nav {
         margin-left: -10px;
         font-size: 15px;
     }
-} */
+}
