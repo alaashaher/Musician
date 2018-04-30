@@ -101,6 +101,83 @@ nav {
 }
 /* concert tours end */
 
+/* latter compositions start */
+#latter_composition div h1 {
+    color: black;
+}
+
+.latter_composition_body {
+    margin-left: 12%;
+    height: 400px;
+    margin-top: 60px;
+}
+
+.latter_composition_body_data {
+    background-color: rgb(246,246,246);
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+.line_latter_composition {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);   
+}
+
+.latter_composition_data_title_desc {
+    font-weight: bold;
+    margin-top: 7%;
+}
+
+.latter_composition_data_desc {
+    margin-top: 3%;
+    color: rgb(175, 179, 182);
+}
+
+.visit {
+    width: 160px;
+    height: 30px;
+    float: left;
+    font-weight: bold;
+    border: 1px solid rgb(139, 139, 139);
+    margin-top: 7%;
+    font-size: 14px;
+    padding-top: 0.5%;
+}
+
+.icons .fas{
+    margin-top: 8%;
+    margin-left:1.5%;
+}
+
+.vedio_ {
+    height: 400px;
+    margin-left: -18px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* start media */
