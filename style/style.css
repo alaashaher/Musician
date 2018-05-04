@@ -157,7 +157,34 @@ nav {
     
 }
 
+/* latter compositions end */
 
+/* early year start */
+
+#early_year {
+    margin-top: 100px;
+}
+.carousel-item img {
+    height: 500px;
+}
+
+.carousel-control-next-icon {
+    background-image: none;
+}
+
+.carousel-control-next {
+    display: inline-block;
+}
+
+.carousel-control-next span .next {
+    margin-top: 124px;
+    display: block;
+}
+
+.carousel-caption {
+    
+}
+/*  early year end */
 
 
 
