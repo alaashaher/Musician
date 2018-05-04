@@ -180,13 +180,82 @@ nav {
     margin-top: 124px;
     display: block;
 }
-
-.carousel-caption {
-    
-}
 /*  early year end */
 
+/* songer start */
+.songer_body {
+    margin-top: 50px;
+    margin-left: 4%;
+}
 
+.songer_body_data {
+    height: 430px;
+    padding: 40px;
+    background-image: url("../image/songer1.png");
+    background-repeat: no-repeat;
+    margin-left: 2%;
+}
+
+.songer_body_data:hover {
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    transform:scale(1.1);
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+    transform:rotate(360deg);
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;   
+    cursor: pointer;
+}
+
+.songer_body_data2 {
+    background-image: url("../image/songer2.png");
+
+}
+
+.songer_body_data3 {
+    background-image: url("../image/songer3.png");
+    
+}
+
+.songer_body_data4 {
+    background-image: url("../image/songer4.png");
+    
+}
+
+.songer_body_data5 {
+    background-image: url("../image/songer5.png");
+    
+}
+
+.songer_body_data6 {
+    background-image: url("../image/songer6.png");
+    
+}
+
+.songer_date {
+    font-weight: bold;
+}
+
+.songer_data_title_left {
+    color: white;
+}
+
+.line_songer {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    border-top: 2px solid rgb(0, 0, 0);   
+}
+
+.songer_data_title_desc {
+    margin-top: 20px;
+    font-weight: bold;
+}
 
 
 
