@@ -256,6 +256,42 @@ nav {
     margin-top: 20px;
     font-weight: bold;
 }
+/* songer end */
+
+/* upcoming events start */
+#upcoming_events {
+    margin-top: 150px;
+}
+
+.upcoming_title {
+    text-decoration: line-through;
+    font-size: 40px;
+    color: rgb(65, 113, 127);
+}
+
+.somke_line {
+    width: 80px;
+    height: 1px;
+    margin-left: 0px;
+    border-top: 1px solid rgb(100, 95, 95);
+}
+
+.somke_desc_line {
+    width: 80px;
+    height: 50px;
+    margin-left: 20px;
+    border-left: 1px solid rgb(100, 95, 95);
+}
+.upcoming_events_body {
+    margin-left: 40%;
+    text-align: left;
+    height: 505px;
+}
+
+.somke_desc {
+    font-size: 12px;
+    color: rgb(88, 86, 86);
+}
 
 
 
@@ -274,6 +310,8 @@ nav {
 
 
 
+
+/* upcoming events end */
 
 
 /* start media */
