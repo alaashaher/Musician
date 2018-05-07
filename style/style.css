@@ -292,27 +292,28 @@ nav {
     font-size: 12px;
     color: rgb(88, 86, 86);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* upcoming events end */
 
+/* history start */
+.history_body {
+    display: inline;
+    margin-left: -100px;
+    color: black;
+    margin-left: -160px;
+    font-size: 20px;
+}
+.history_line {
+    height: 1px;
+    width: 50px;
+    border-bottom: 1px solid rgb(100, 97, 97);
+    margin-top: 15px;
+}
+
+.later {
+    font-size: 12px;
+    color: black;
+    margin-top: 20px;
+}
 
 /* start media */
 @media (min-width:1126px) and (max-width:1172px){
