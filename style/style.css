@@ -150,13 +150,10 @@ nav {
     margin-top: 8%;
     margin-left:1.5%;
 }
-
-.vedio_ {
-    height: 400px;
-    margin-left: -18px;
-    
+video {
+    /* width: 100%;
+    height: 600px; */
 }
-
 /* latter compositions end */
 
 /* early year start */
@@ -314,6 +311,41 @@ nav {
     color: black;
     margin-top: 20px;
 }
+/* history end */
+
+/* contact start */
+#contact {
+    margin-top: 100px;
+}
+
+.history_body div input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 250px;
+    margin-top: 20px;
+}
+
+.send {
+    margin-top: 20px;
+}
+
+.send:hover {
+    cursor: pointer;
+    color: brown;
+}
+
+.contact_icon {
+    float: right;
+    margin-top: -200px;
+    margin-right: 100px;
+    width: 200px;
+    height: 200px;
+    border-left: 1px solid black;
+}
+
+/* contact end */
+
 
 /* start media */
 @media (min-width:1126px) and (max-width:1172px){
