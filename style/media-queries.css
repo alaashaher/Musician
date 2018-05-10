@@ -1,18 +1,213 @@
-/*for mobile*/
-@media (max-width:480px){
+
+/* start media */
+@media (min-width:1126px) and (max-width:1172px){
     
+    .navbar-collapse {
+        margin-left: 10px;
+    }
 }
 
-/*smart phones & tablets*/
-@media (min-width:481px) and (max-width:767px){
+@media (min-width:992px) and (max-width:1125px){
+    .navbar-brand {
+        margin-top: -20px;
+        
+    }
+    .navbar-collapse {
+        margin-left: -50px;
+        margin-top: 30px;
+        width: 100%;
+
+    }
     
 }
-/*small screen*/
-@media (min-width:768px) and (max-width:991px){
+@media (max-width:992px){
+    .songer_body_data {
+        font-size: 12px;
+    }
+}
+@media (min-width:1018px) and (max-width:1064px){
     
+    .navbar-collapse {
+        margin-left: -5px;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        margin-left: -5px;
+        font-size: 15px;
+    }
+} 
+
+@media (min-width:992px) and (max-width:1017px){
+    
+    .navbar-collapse {
+        margin-left: -5px;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        margin-left: -10px;
+        font-size: 15px;
+    }
 }
 
-/*medium screen*/
+@media (min-width: 993px) and (max-width:1322px){
+    .songer_body_data {
+        font-size: 12px;
+    }
+
+    #upcoming_events {
+        height: 600px;
+    }
+
+    .history_body {
+        font-size: 18px;
+        margin-left: -130px;
+    }
+
+}
+
+@media (min-width:990px) and (max-width:1030px) {
+    .concert_tours_body_data_desc {
+        font-size: 12px;
+    }
+    .upcoming_title {
+        font-size: 18px;
+    }
+}
+
+@media (min-width:800px) and (max-width:992px) {
+    .latter_composition_body {
+        margin-left: 2%;
+    }
+    .visit {
+        float: none;
+        font-size: 11px;
+        width: 100px;
+        height: 20px;
+    }
+    .latter_composition_data_desc {
+        font-size: 11px;
+    }
+    .latter_composition_data_title_desc samp{
+        font-size: 12px;
+    }
+
+    .songer_body_{
+        margin: 1%;
+        text-align: center
+    }
+
+    .songer_body_data {
+        margin-left: 1%;
+    }
+
+    .latter_composition_data_desc {
+        font-size: 15px;
+    }
+    .history_body {
+        font-size: 12px;
+    }
+    .history_line {
+        display: none
+    }
+    .upcoming_title{
+        font-size: 18px;
+    }
+    .contact_icon{
+        margin-right: 44px;
+    }
+
+    .songer_body{
+        margin-left: 8%;
+    }
+}
+
+@media (min-width:768px) and (max-width:799px){
+    .songer_body{
+        margin-left: 18%;
+    }
+    .latter_composition_data_desc_ {
+        font-size: 15px;
+    }
+
+    .latter_composition_data_desc {
+        font-size: 11px;
+    }
+    .visit {
+        float: none;
+        font-size: 11px;
+        width: 100px;
+        height: 20px;
+    }
+    .upcoming_title{
+        font-size: 18px;
+    }
+    .history_line {
+        display: none
+    }
+    .history_body {
+        font-size: 12px;
+    }
+    .contact_icon{
+        margin-right: 44px;
+    }
+}
+
+@media (max-width:767px){
+    .upcoming_title {
+        font-size: 18px;
+    }
+    .history_line {
+        display: none
+    }
+    .history_body {
+        font-size: 12px;
+    }
+    .contact_icon{
+        margin-right: 44px;
+    }
+    .songer_body_data {
+        margin-left: 20%;
+    }
+    .songer_data_title_desc {
+        font-size: 20px;
+    }
+    .songer_date {
+        font-size: 20px;
+    }
+    .songer_data_title_left {
+        font-size: 20px;
+    }
+    .latter_composition_data_desc_ {
+        font-size: 15px;
+    }
+    #latter_composition {
+        height: 1000px;
+    }
+    #early_year{
+        margin-top: 1100px;
+    }
+
+    video {
+        width: 500px;
+        height: 500px;
+        display: block;
+    }
+
+    .vedio_ {
+        display: none;
+    }
+
+    .latter_composition_ {
+        margin-top: -200px;
+    }
+    .latter_composition_body_data {
+        height: 320px;
+        margin-top: 200px;
+        display: block;
+        
+    }
+} 
+
 @media (min-width:992px) and (max-width:1293){
     .navbar-brand {
         margin: auto;
