@@ -208,6 +208,10 @@
     }
 } 
 
+@media(max-width:450px){
+    
+}
+
 @media (min-width:992px) and (max-width:1293){
     .navbar-brand {
         margin: auto;
