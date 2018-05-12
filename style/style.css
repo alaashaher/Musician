@@ -1,5 +1,5 @@
 body {
-    overflow-x: hidden;
+    overflow-x: hidden; 
 }
 
 .carousel-inner {
@@ -10,10 +10,6 @@ header {
     height: 960px;
     width: 100%;
     background-image: url("../image/header_image.png");
-}
-
-nav {
-    /* background-image: url("../image/header_image.png"); */
 }
 
 .navbar-brand {
