@@ -192,11 +192,6 @@
         height: 500px;
         display: block;
     }
-
-    .vedio_ {
-        display: none;
-    }
-
     .latter_composition_ {
         margin-top: -200px;
     }
@@ -208,10 +203,6 @@
     }
 } 
 
-@media(max-width:450px){
-    
-}
-
 @media (min-width:992px) and (max-width:1293){
     .navbar-brand {
         margin: auto;
@@ -221,3 +212,49 @@
     }
 }
 
+@media (max-width:450px){
+    .concert_tours_body_data_desc {
+        font-size: 11px;
+    }
+    .concert_tours_body_data {
+        margin-top: 100px;
+    }
+    .upcoming_title {
+        font-size: 15px;
+    }
+    .upcoming_events_body {
+        margin-left: 5%;
+    }
+    .history_body {
+        margin-top: -50px;
+        margin-left: -60px;
+    }
+    .history_body div input {
+        width: 150px;
+    }
+    .contact_icon {
+        margin-right: -70px;
+    }
+    .contact_icon i {
+        margin-left: -80px;
+        margin-top: 30px;
+    }
+    .songer_body_data {
+        margin-left: 0%;
+    }
+    .latter_composition_body_data {
+        margin-left: -40px;
+        margin-top: -50px;
+    }
+    .latter_composition_ {
+        margin-top: 20px;
+    }
+    .visit {
+        font-size: 11px;
+        width: 100px;
+        height: 20px;
+    }
+    video {
+        margin-left: -30px;
+    }
+}
