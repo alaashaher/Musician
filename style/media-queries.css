@@ -18,12 +18,10 @@
         width: 100%;
 
     }
-    
-}
-@media (max-width:992px){
     .songer_body_data {
         font-size: 12px;
     }
+    
 }
 @media (min-width:1018px) and (max-width:1064px){
     
@@ -174,7 +172,7 @@
     }
 }
 
-@media (max-width:767px){
+@media (min-width:451px) and (max-width:767px){
     .upcoming_title {
         font-size: 18px;
     }
@@ -208,11 +206,9 @@
     #early_year{
         margin-top: 1100px;
     }
-
     video {
-        width: 500px;
-        height: 500px;
-        display: block;
+        width: 20% !important;
+        height: 350px !important;
     }
     .latter_composition_ {
         margin-top: -200px;
@@ -221,11 +217,12 @@
         height: 320px;
         margin-top: 200px;
         display: block;
-        
+        height: 300px;
+        font-size: 15px;
     }
 } 
 
-@media (min-width:992px) and (max-width:1293){
+@media (min-width:992px) and (max-width:1293px){
     .navbar-brand {
         margin: auto;
     }
