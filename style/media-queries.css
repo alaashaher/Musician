@@ -63,28 +63,6 @@
 
 }
 
-@media (min-width:451px) and (max-width:767px) {
-    video {
-        margin-left: 10px;
-        width: 20%;
-        height: 100px;
-        padding: 120px;
-        margin-top: -80px;
-
-    }
-    .visit {
-        font-size: 11px;
-        width: 100px;
-        height: 20px;
-    }
-    .latter_composition_ {
-        margin-top: -200px;
-    }
-    .latter_composition_body_data {
-        height: 350px;
-        margin-top: 800px;        
-    }
-}
 @media (min-width:990px) and (max-width:1030px) {
     .concert_tours_body_data_desc {
         font-size: 12px;
@@ -201,17 +179,30 @@
         font-size: 15px;
     }
     #latter_composition {
-        height: 1000px;
+        height: 600px;
+    }
+
+    .visit {
+        font-size: 11px;
+        width: 100px;
+        height: 20px;
+    }
+    .latter_composition_ {
+        margin-top: -200px;
+    }
+    .latter_composition_body_data {
+        height: 350px;
+        margin-top: 800px;        
     }
     #early_year{
         margin-top: 1100px;
     }
     video {
+        margin-left: 10px;
         width: 20% !important;
         height: 350px !important;
-    }
-    .latter_composition_ {
-        margin-top: -200px;
+        padding: 120px;
+        margin-top: -80px;
     }
     .latter_composition_body_data {
         height: 320px;
