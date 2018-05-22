@@ -190,25 +190,21 @@
     .latter_composition_ {
         margin-top: -200px;
     }
-    .latter_composition_body_data {
-        height: 350px;
-        margin-top: 800px;        
-    }
+  
     #early_year{
         margin-top: 1100px;
     }
     video {
         margin-left: 10px;
-        width: 20% !important;
+        width: 70% !important;
         height: 350px !important;
         padding: 120px;
-        margin-top: -80px;
+        margin-top: -110px;
     }
     .latter_composition_body_data {
-        height: 320px;
-        margin-top: 200px;
+        height: 330px;
+        margin-top: 250px;
         display: block;
-        height: 300px;
         font-size: 15px;
     }
 } 
