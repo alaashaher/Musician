@@ -192,20 +192,23 @@
     }
   
     #early_year{
-        margin-top: 1100px;
+        margin-top: 1700px;
     }
     video {
         margin-left: 10px;
         width: 70% !important;
-        height: 350px !important;
+        height: 500px !important;
         padding: 120px;
-        margin-top: -110px;
+        margin-top: -90px;
     }
     .latter_composition_body_data {
         height: 330px;
         margin-top: 250px;
         display: block;
         font-size: 15px;
+    }
+    .latter_composition_body {
+        height: 600px;
     }
 } 
 
